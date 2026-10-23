@@ -1,1 +1,31 @@
-.button{display:inline-block;padding:12px 20px;color:#fff;background:#171717;text-decoration:none}.button--small{padding:8px 14px}.button--accent{background:#6c5ce7}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  width: max-content;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+/* Модификаторы */
+.button--small {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.button--accent {
+  background-color: #0076ff;
+}
+
+.button--accent:hover {
+  background-color: #005bc5;
+}
